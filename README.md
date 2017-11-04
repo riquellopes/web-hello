@@ -6,3 +6,6 @@ To me don't different, i'll build a [Golang](https://golang.org/) application an
 
 
 #### TODO
+ * [Create route.](https://github.com/riquellopes/golang/blob/master/http-server/main.go)
+ * [Create Heroku configurations](https://devcenter.heroku.com/articles/getting-started-with-go#introduction).
+ * Build deploy.
