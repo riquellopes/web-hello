@@ -9,3 +9,7 @@ To me don't different, i'll build a [Golang](https://golang.org/) application an
  * [x] [Create route.](https://github.com/riquellopes/golang/blob/master/http-server/main.go)
  * [x] [Create Heroku configurations](https://devcenter.heroku.com/articles/getting-started-with-go#introduction).
  * [x] Build deploy.
+
+
+#### OBS
+Don`t forget added $GOPATH at global $path. I've lost some hours with that. For more details, [GOPATH](https://golang.org/doc/code.html#GOPATH)
