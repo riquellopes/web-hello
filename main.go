@@ -7,6 +7,11 @@ import (
 	"os"
 )
 
+// HomeHandler -
+func HomeHandler(res http.ResponseWriter, req *http.Request) {
+	io.WriteString(res, "Hello World.")
+}
+
 func main() {
 	port := os.Getenv("PORT")
 
@@ -14,9 +19,7 @@ func main() {
 		log.Fatal("$PORT should be set.")
 	}
 
-	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {
-		io.WriteString(res, "Hello World.")
-	})
+	http.HandleFunc("/", HomeHandler)
 
 	http.ListenAndServe(":"+port, nil)
 }
