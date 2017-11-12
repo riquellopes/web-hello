@@ -3,8 +3,8 @@ WEB HELLO
 
 [![Build Status](https://travis-ci.org/riquellopes/web-hello.svg?branch=master)](https://travis-ci.org/riquellopes/web-hello)
 
-  This's project it is a classical web application, created for all web developers when they are learning something.
-To me don't different, I'll build a [Golang](https://golang.org/) application and then last I'll deploy at [Heroku](https://www.heroku.com/).
+  This's project it's a classical web application, created for all web developers when they are learning something.
+And can't be different to me, I'll build a [Golang](https://golang.org/) application and then last I'll deploy at [Heroku](https://www.heroku.com/).
 
 
 #### TODO
